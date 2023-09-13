@@ -1,0 +1,21 @@
+/*/selector general/*/
+*{
+
+}
+/*/selector por etiqueta/*/
+p
+{
+	color: black;
+}
+
+/*/Selector por clase o categoria /*/
+.container
+{
+
+}
+
+/*/Selector por ID/*/
+#inicio
+{
+
+}
