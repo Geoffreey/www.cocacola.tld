@@ -1,21 +1,113 @@
 /*/selector general/*/
 *{
-
+	box-sizing: border-box;
 }
+
+body
+{
+	font-family: "Roboto";
+	font-size: 13px;
+}
+
+a
+{
+	display: inline-block;
+}
+
 /*/selector por etiqueta/*/
-p
+/*p
 {
 	color: black;
+}*/
+
+header
+{
+	padding: 15px 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	background-color: white;
+	width: 100%;
 }
+
+header .container
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header .container .logo
+{
+	width: 100px;
+}
+
+header .container a
+{
+	color: red;
+	text-decoration: none;
+	margin: 0 15px;
+}
+
+.boton
+{
+	text-align: center;
+	text-decoration: none;
+	padding: 15px 20px;
+}
+
+.boton.boton-rojo
+{	
+	background-color: red;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
+
 
 /*/Selector por clase o categoria /*/
 .container
 {
-
+	width: 1140px;
+	margin: 0 auto 0 auto;
+	padding-right: 15px;
+	padding-left: 15px;
 }
 
 /*/Selector por ID/*/
 #inicio
 {
-
+	position: relative;
 }
+
+#inicio img
+{
+	width: 100%;
+	display: block;
+}
+
+#inicio .bloque-inicio
+{
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	width: 400px;
+	text-align: center;
+	margin-left: -200px;
+}
+
+#inicio .bloque-inicio h1
+{
+	color: white;
+	font: 35px;
+}
+
+#inicio .bloque-inicio p
+{
+	color: white;
+	font-size: 16px;
+}
+
+
+
