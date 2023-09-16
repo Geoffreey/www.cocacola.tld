@@ -9,7 +9,7 @@
 	</title>
 	<link rel="shortcut icon" href="img/favicon.png">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<!--<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>-->
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,100&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="style.css">
@@ -19,7 +19,7 @@
 	<header>
 		<div class="container">
 			<a href="index.html">
-				<img src="img/logo.svg">
+				<img src="img/logo.svg" class="logo">
 			</a>
 			<nav>
 				<a href="#inicio">Inicio</a>
@@ -31,49 +31,48 @@
 		</div>
 	</header>
 	<main>
-		<section id="#inicio">
+		<section id="inicio">
 			<img src="img/bannerprincipal.jpg">
 			<div class="bloque-inicio">
 				<h1>Bienvenodos a Coca Cola</h1>
-				<p>
-					Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta)
+				<p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta)
 				    desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. 
 					Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, 
 					y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.</p>
 				<a href="#nosotros" class="boton boton-rojo">Ver más</a>
 			</div>
 		</section>
-		<section id="nosotros">
+		<section id="nosotros" class="seccion">
 			<div class="container">
-				Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto de un sitio mientras que mira su diseño. 
+				<p>un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto de un sitio mientras que mira su diseño. 
 				El punto de usar Lorem Ipsum es que tiene una distribución más o menos normal de las letras, al contrario de usar textos como por ejemplo "Contenido aquí, contenido aquí". 
 				Estos textos hacen parecerlo un español que se puede leer. Muchos paquetes de autoedición y editores de páginas web usan el Lorem Ipsum como su texto por defecto, y al hacer una búsqueda de "Lorem Ipsum" 
 				va a dar por resultado muchos sitios web que usan este texto si se encuentran en estado de desarrollo. Muchas versiones han evolucionado a través de los años, algunas veces por accidente, 
-				otras veces a propósito (por ejemplo insertándole humor y cosas por el estilo).
+				otras veces a propósito (por ejemplo insertándole humor y cosas por el estilo).</p>
 			</div>
 		</section>
-		<section id="servicios">
+		<section id="servicios" class="seccion">
 			<div class="container">
 			<div class="row">
 				<div class="columna columna-33">
 					<div class="bloque-servicio">
-						<div class="bloque-img-servicio">
+						<div class="bloque-img-servicio cuadrado-perfecto">
 							<img src="img/servicio1.jpg">
 						</div>
-						<div class="bloque-contenido-servicio1">
+						<div class="bloque-contenido-servicio">
 							<h3>Servicio 1</h3>
 							<p>Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto de un sitio mientras que mira su diseño. 
 								El punto de usar Lorem Ipsum es que tiene una distribución más o menos normal de las letras, al contrario de usar textos como por ejemplo "Contenido aquí, contenido aquí". 
 								Estos textos hacen parecerlo un español que se puede leer. Muchos paquetes de autoedición y editores de páginas web usan el Lorem Ipsum como su texto por defecto, y al hacer una búsqueda de "Lorem Ipsum" 
 								va a dar por resultado muchos sitios web que usan este texto si se encuentran en estado de desarrollo. Muchas versiones han evolucionado a través de los años, algunas veces por accidente, 
 								otras veces a propósito (por ejemplo insertándole humor y cosas por el estilo).</p>
-								<a href="#" class="boton">Ver más</a>
+								<a href="#" class="boton boton-blanco">Ver más</a>
 						</div>
 					</div>
 				</div>
 				<div class="columna columna-33">
 					<div class="bloque-servicio">
-						<div class="bloque-img-servicio">
+						<div class="bloque-img-servicio cuadrado-perfecto">
 							<img src="img/servicio2.jpg">
 						</div>
 						<div class="bloque-contenido-servicio">
@@ -83,12 +82,14 @@
 								Estos textos hacen parecerlo un español que se puede leer. Muchos paquetes de autoedición y editores de páginas web usan el Lorem Ipsum como su texto por defecto, y al hacer una búsqueda de "Lorem Ipsum" 
 								va a dar por resultado muchos sitios web que usan este texto si se encuentran en estado de desarrollo. Muchas versiones han evolucionado a través de los años, algunas veces por accidente, 
 								otras veces a propósito (por ejemplo insertándole humor y cosas por el estilo).</p>
-								<a href="#" class="boton">Ver más</a>
+								<a href="#" class="boton boton-blanco">Ver más</a>
+								
 						</div>
+					</div>
 				</div>
 				<div class="columna columna-33">
 					<div class="bloque-servicio">
-						<div class="bloque-img-servicio">
+						<div class="bloque-img-servicio cuadrado-perfecto">
 							<img src="img/servicio3.jpg">
 						</div>
 						<div class="bloque-contenido-servicio">
@@ -98,46 +99,47 @@
 								Estos textos hacen parecerlo un español que se puede leer. Muchos paquetes de autoedición y editores de páginas web usan el Lorem Ipsum como su texto por defecto, y al hacer una búsqueda de "Lorem Ipsum" 
 								va a dar por resultado muchos sitios web que usan este texto si se encuentran en estado de desarrollo. Muchas versiones han evolucionado a través de los años, algunas veces por accidente, 
 								otras veces a propósito (por ejemplo insertándole humor y cosas por el estilo).</p>
-								<a href="#" class="boton">Ver más</a>
+								<a href="#" class="boton boton-blanco">Ver más</a>
 						</div>
-				</div>
+				    </div>
+			    </div>
 			</div>
-			</div>
-		</section>
+		</div>
+	   </section>
 		<section id="galeria">
 			<div  class="container-fluid">
 				<div class="row">
-					<div class="columna columna-33">
+					<div class="columna-33">
 						<div class="cuadrado-perfecto">
 							<img src="img/servicio1.jpg">
 							<h4>Imagen 1</h4>
 						</div>
 					</div>
-					<div class="columna columna-33">
+					<div class="columna-33">
 						<div class="cuadrado-perfecto">
 							<img src="img/servicio2.jpg">
 							<h4>Imagen 2</h4>
 						</div>
 					</div>
-					<div class="columna columna-33">
+					<div class="columna-33">
 						<div class="cuadrado-perfecto">
 							<img src="img/servicio3.jpg">
 							<h4>Imagen 3</h4>
 						</div>
 					</div>
-					<div class="columna columna-33">
+					<div class="columna-33">
 						<div class="cuadrado-perfecto">
 							<img src="img/servicio4.jpg">
 							<h4>Imagen 4</h4>
 						</div>
 					</div>
-					<div class="columna columna-33">
+					<div class="columna-33">
 						<div class="cuadrado-perfecto">
 							<img src="img/servicio5.jpg">
 							<h4>Imagen 5</h4>
 						</div>
 					</div>
-					<div class="columna columna-33">
+					<div class="columna-33">
 						<div class="cuadrado-perfecto">
 							<img src="img/servicio6.jpg">
 							<h4>Imagen 6</h4>
@@ -146,29 +148,28 @@
 				</div>
 			</div>
 		</section>
-		<section id="contactenos">
-			<div class="container">
+		<section id="contactenos" class="seccion">
+			<iframe width="523" height="403" frameborder="0" src="https://maps.google.com/maps?width=523&amp;height=403&amp;hl=en&amp;q=6%20avenida%205-84%20zona%201%20Chimaltenango+(guatemala)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+			<div class="container-fluid" >
 				<div class="row">
-					<div class="columna columna-50">
+					<div class="columna columna-41 empujar-58">
 						<form action="" method="post">
-							<div class="from-block">
-								<input type="text" name="nombre" class="from-control">
+							<div class="form-block">
+								<input type="text" name="nombre" class="form-control" placeholder="Nombre">
 							</div>
-							<div class="from-block">
-								<input type="email" name="email" class="from-control">
+							<div class="form-block">
+								<input type="email" name="email" class="form-control" placeholder="usuario@gmail.com">
 							</div>
-							<div class="from-block">
-								<textarea name="mensaje"></textarea>
+							<div class="form-block">
+								<textarea name="mensaje" placeholder="Mensaje"></textarea>
 							</div>
-							<div class="from-block">
-								<input type="submit" value="enviar">
+							<div class="form-block bloque-ultimo">
+								<input type="submit" class="boton boton-negro" value="enviar">
 							</div>
 						</form>
 					</div>
 				</div>
 			</div>
-			<iframe width="523" height="403" frameborder="0" src="https://maps.google.com/maps?width=523&amp;height=403&amp;hl=en&amp;q=6%20avenida%205-84%20zona%201%20Chimaltenango+(guatemala)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
-
 		</section>
 	</main>
 	<footer>
