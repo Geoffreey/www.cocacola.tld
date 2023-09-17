@@ -445,6 +445,11 @@ footer .redes a
 		transform: translateX(100%);
 	}
 
+	header .container nav.open
+	{
+		transform: translateX(0);
+	}
+
 	header .container nav a
 	{
 		font-size: 30px;
@@ -456,6 +461,7 @@ footer .redes a
 		display: block;
 		font-size: 45px;
 		color: red;
+		position: relative;
 	}
 
 	form .boton.boton-negro
