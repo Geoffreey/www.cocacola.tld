@@ -6,8 +6,7 @@
 	<meta name="keywords" content="bebida, gaseos, cola">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>
-		Inicio - Coca cola
-	</title>
+		Inicio - GeoffDeep	</title>
 	<link rel="shortcut icon" href="img/favicon.png">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,7 +19,7 @@
 	<header>
 		<div class="container">
 			<a href="index.html">
-				<img src="img/logo.svg" class="logo">
+				<img src="img/logo.png" class="logo">
 			</a>
 			<nav>
 				<a href="#inicio">Inicio</a>
@@ -36,9 +35,9 @@
 		<section id="inicio">
 			<img src="img/bannerprincipal.jpg">
 			<div class="bloque-inicio">
-				<h1>Bienvenodos a Coca Cola</h1>
+				<h1>Bienvenodos a GeoffDeep</h1>
 				<p>
-					Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.
+					Soporte y soluciones IT.
 				</p>
 				<a href="#nosotros" class="boton boton-rojo">Ver más</a>
 			</div>
@@ -59,7 +58,7 @@
 							<img src="img/servicio1.jpg">
 						</div>
 						<div class="bloque-contenido-servicio">
-							<h3>Servicio 1</h3>
+							<h3>Soporte técnico</h3>
 							<p>
 								Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto de un sitio mientras que mira su diseño. 
 								El punto de usar Lorem Ipsum es que tiene una distribución más o menos normal de las letras, al contrario de usar textos como por ejemplo "Contenido aquí, contenido aquí". 
@@ -75,7 +74,7 @@
 							<img src="img/servicio2.jpg">
 						</div>
 						<div class="bloque-contenido-servicio">
-							<h3>Servicio 1</h3>
+							<h3>Seguridad eléctronica</h3>
 							<p>
 								Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto de un sitio mientras que mira su diseño. 
 								El punto de usar Lorem Ipsum es que tiene una distribución más o menos normal de las letras, al contrario de usar textos como por ejemplo "Contenido aquí, contenido aquí". 
@@ -92,7 +91,7 @@
 							<img src="img/servicio3.jpg">
 						</div>
 						<div class="bloque-contenido-servicio">
-							<h3>Servicio 1</h3>
+							<h3>Desarrollo de aplicaciones web</h3>
 							<p>
 								Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto de un sitio mientras que mira su diseño. 
 								El punto de usar Lorem Ipsum es que tiene una distribución más o menos normal de las letras, al contrario de usar textos como por ejemplo "Contenido aquí, contenido aquí". 
@@ -202,7 +201,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="columna columna-25 columna-mobile-100">
-					<img src="img/logo-blanco.png" class="logo-footer">
+					<img src="img/logo.png" class="logo-footer">
 					<p>
 						Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto de un sitio mientras que mira su diseño.
 					</p>
@@ -222,8 +221,8 @@
 						Datos de contacto
 					</h3>
 					<ul>
-						<li>geoffreey.torres64@outlook.com</li>
-						<li>+502 48410140</li>
+						<li>info@geoffdeep.pw</li>
+						<li>(+502)48410140</li>
 						<li>Guatemala<br>Guatemala</li>
 					</ul>
 				</div>

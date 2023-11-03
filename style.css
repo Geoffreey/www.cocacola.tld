@@ -18,7 +18,7 @@ a
 /*selector por etiqueta/*/
 p
 {
-	color: black;
+	color: rgb(0, 0, 0);
 }
 
 header
@@ -28,7 +28,7 @@ header
 	top: 0;
 	left: 0;
 	z-index: 2;
-	background-color: white;
+	background-color: #070523;
 	width: 100%;
 }
 
@@ -46,7 +46,7 @@ header .container .logo
 
 header .container nav a
 {
-	color: red;
+	color: rgb(243, 242, 242);
 	text-decoration: none;
 	margin: 0 15px;
 }
@@ -58,7 +58,7 @@ header .container .hamb
 
 footer
 {
-	background-color: black;
+	background-color: #070523;
 	color: white;
 	padding-top: 60px;
 }
@@ -265,7 +265,7 @@ footer .redes a
 #inicio .bloque-inicio
 {
 	position: absolute;
-	top: 40%;
+	top: 68%;
 	left: 50%;
 	width: 400px;
 	text-align: center;
