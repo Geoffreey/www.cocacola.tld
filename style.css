@@ -122,7 +122,7 @@ footer .redes a
 
 .boton.boton-rojo
 {	
-	background-color: red;
+	background-color: rgb(255, 106, 0);
 	color: white;
 	font-size: 20px;
 	font-weight: bold;
@@ -131,10 +131,10 @@ footer .redes a
 .boton.boton-blanco
 {	
 	background-color: white;
-	color: red;
+	color: rgb(255, 119, 0);
 	font-size: 16px;
 	font-weight: bold;
-	border: 1px solid red;
+	border: 1px solid rgb(255, 98, 0);
 }
 
 .boton.boton-negro
@@ -286,7 +286,7 @@ footer .redes a
 
 #nosotros
 {
-	background-image: url(img/latas.jpg);
+	background-image: url(img/cableado.jpg);
 	background-size: cover;
 	color: white;
 	text-align: center;
@@ -383,7 +383,7 @@ footer .redes a
 #contactenos form
 {
 	padding: 60px;
-	background-color: red;	
+	background-color: rgb(255, 115, 0);	
 }
 
 #contactenos form .form-block

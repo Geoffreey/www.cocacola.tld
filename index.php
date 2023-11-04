@@ -109,37 +109,37 @@
 				<div class="row">
 					<div class="columna-33 columna-mobile-50">
 						<div class="cuadrado-perfecto">
-							<img src="img/servicio1.jpg">
+							<img src="img/galeria1.jpg">
 							<h4>Imagen 1</h4>
 						</div>
 					</div>
 					<div class="columna-33 columna-mobile-50">
 						<div class="cuadrado-perfecto">
-							<img src="img/servicio2.jpg">
+							<img src="img/galeria2.jpg">
 							<h4>Imagen 2</h4>
 						</div>
 					</div>
 					<div class="columna-33 columna-mobile-50">
 						<div class="cuadrado-perfecto">
-							<img src="img/servicio3.jpg">
+							<img src="img/galeria3.png">
 							<h4>Imagen 3</h4>
 						</div>
 					</div>
 					<div class="columna-33 columna-mobile-50">
 						<div class="cuadrado-perfecto">
-							<img src="img/servicio4.jpg">
+							<img src="img/galeria4.jpg">
 							<h4>Imagen 4</h4>
 						</div>
 					</div>
 					<div class="columna-33 columna-mobile-50">
 						<div class="cuadrado-perfecto">
-							<img src="img/servicio5.jpg">
+							<img src="img/galeria5.png">
 							<h4>Imagen 5</h4>
 						</div>
 					</div>
 					<div class="columna-33 columna-mobile-50">
 						<div class="cuadrado-perfecto">
-							<img src="img/servicio6.jpg">
+							<img src="img/galeria6.jpg">
 							<h4>Imagen 6</h4>
 						</div>
 					</div>
@@ -221,9 +221,11 @@
 						Datos de contacto
 					</h3>
 					<ul>
-						<li>info@geoffdeep.pw</li>
-						<li>(+502)48410140</li>
-						<li>Guatemala<br>Guatemala</li>
+						<li><i class="fa-solid fa-envelope fa-lg" style="color: #ff941a;"></i> info@geoffdeep.pw</li>
+
+						<li><i class="fa-solid fa-phone fa-lg" style="color: #ff941a;"></i> (+502)48410140</li>
+
+						<li><i class="fa-solid fa-location-dot fa-lg" style="color: #ff941a;"></i> Guatemala<br>Guatemala</li>
 					</ul>
 				</div>
 				<div class="columna columna-25 columna-mobile-100">
@@ -238,14 +240,14 @@
 						</li>
 						<li>
 							<a href="#">
-								<i class="fa-brands fa-x-twitter fa-xl"></i>
+							<i class="fa-brands fa-square-whatsapp fa-xl" style="color: #f7f7f7;"></i>
 							</a>
 						</li>
-						<li>
+						<!--<li>
 							<a href="#">
 								<i class="fa-brands fa-square-instagram fa-xl"></i>
 							</a>
-						</li>
+						</li>-->
 					</ul>
 				</div>
 			</div>
