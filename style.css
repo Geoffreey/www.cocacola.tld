@@ -19,6 +19,7 @@ a
 p
 {
 	color: rgb(0, 0, 0);
+	display: inline;
 }
 
 header
@@ -333,6 +334,39 @@ footer .redes a
 {
 	margin-top: 0;
 	font-size: 25px;
+}
+
+.extra {
+	display: none;
+}
+
+input[type="checkbox"] {
+	height: 2em;
+	display: block;
+	appearance: none;
+}
+
+label {
+	position: relative;
+	padding: 1em;
+	background-color:  rgb(255, 115, 0);
+	color:rgb(243, 242, 242);
+	cursor: pointer;
+}
+label::before {
+	content: 'Read More';
+}
+
+input[type="checkbox"]:checked ~ label::before {
+	content: 'Read Less';
+}
+
+.dots:has(~ input[type="checkbox"]:checked) {
+	display: none;
+}
+
+.extra:has(~ input[type="checkbox"]:checked) {
+	display: inline;
 }
 
 #galeria

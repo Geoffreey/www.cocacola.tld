@@ -62,13 +62,23 @@
 							<p>
 							Geoffdeep comprende la importancia de un sistema informático en pleno funcionamiento para el éxito y desempeño empresarial.
 							Nuestro equipo de expertos en soporte IT está disponible para otorgar asistencia técnica inmediata y resolver cualquier problema 
-							relacionado con el hardware, software y seguridad informática.  Ya sea por la necesidad de solucionar un fallo del sistema, una 
+							relacionado con el hardware, software y seguridad informática.
+							Ya sea por la necesidad de solucionar un fallo del sistema, una 
+							configuración incorrecta o enfrentar una amenaza de seguridad, nuestro equipo está preparado para aportar soluciones rápidas y efectivas, 
+							minimizando el tiempo de inactividad y optimizando el rendimiento del sistema. Nuestro compromiso es ofrecerte una solución de soporte informático 
+							que vaya más allá de lo convencional. Nos centramos en todos los aspectos de la infraestructura de TI de tu empresa, incluyendo redes, seguridad y gestión de datos.
+							Nos dedicamos a asegurar que tus sistemas estén optimizados y funcionen a su máximo potencial.
+                            </p>
+							<!--<span class="dots">...</span>
+							<p class="extra">		
+							Ya sea por la necesidad de solucionar un fallo del sistema, una 
 							configuración incorrecta o enfrentar una amenaza de seguridad, nuestro equipo está preparado para aportar soluciones rápidas y efectivas, 
 							minimizando el tiempo de inactividad y optimizando el rendimiento del sistema. Nuestro compromiso es ofrecerte una solución de soporte informático 
 							que vaya más allá de lo convencional. Nos centramos en todos los aspectos de la infraestructura de TI de tu empresa, incluyendo redes, seguridad y gestión de datos.
 							Nos dedicamos a asegurar que tus sistemas estén optimizados y funcionen a su máximo potencial. 
 							</p>
-								<a href="#" class="boton boton-blanco">Ver más</a>
+								<input type="checkbox" id="btn">
+								<label for="tbn"></label>-->
 						</div>
 					</div>
 				</div>
@@ -83,14 +93,16 @@
 							En Geoffdeep te ofrecemos las más modernas soluciones de video para tu empresa o edificación.
 							Hay diferentes tipos de necesidades, y para cada una tenemos el tipo de cámaras ideales.
 							</p>
+							<!--<span class="dots">...</span>-->
 							<h4>Tipos de uso</h4>
-							<p>
+							<p class="extra">
 								<li>Seguridad</li>
 							    <li>Mercadeo</li>
 							    <li>Control de procesos</li>
 							    <li>Supervisión y productividad</li>
-						</p>
-                        <a href="#" class="boton boton-blanco">Ver más</a>
+                        </p>
+                        <!--<input type="checkbox" id="btn">
+						<label for="tbn"></label>-->
 								
 						</div>
 					</div>
@@ -103,10 +115,15 @@
 						<div class="bloque-contenido-servicio">
 							<h3>Desarrollo web</h3>
 							<p>
-							Nuestro servicio de diseño de páginas web, es desarrollado con diferentes tecnologías dependiendo del tipo de sitio de su elección. Nuestra empresa no se preocupa tan solo del diseño del sitio, sino también que el sitio web contenga los canales de comunicación con su potencial cliente, 
+							Nuestro servicio de diseño de páginas web, es desarrollado con diferentes tecnologías dependiendo del tipo de sitio de su elección.
+							Nuestra empresa no se preocupa tan solo del diseño del sitio, sino también que el sitio web contenga los canales de comunicación con su potencial cliente, 
 							como por ejemplo: Formularios de contacto, teléfonos visibles, WhatsApp web, botones para cotizar, botones de llamada y estadísticas.
 							</p>
-								<a href="#" class="boton boton-blanco">Ver más</a>
+							<!--<span class="dots">...</span>
+							<p class="extra">Nuestra empresa no se preocupa tan solo del diseño del sitio, sino también que el sitio web contenga los canales de comunicación con su potencial cliente, 
+							como por ejemplo: Formularios de contacto, teléfonos visibles, WhatsApp web, botones para cotizar, botones de llamada y estadísticas.</p>
+							<input type="checkbox" id="btn">
+							<label for="tbn"></label>-->
 						</div>
 				    </div>
 			    </div>
@@ -212,7 +229,7 @@
 				<div class="columna columna-25 columna-mobile-100">
 					<img src="img/logo.png" class="logo-footer">
 					<p>
-						Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto de un sitio mientras que mira su diseño.
+						
 					</p>
 				</div>
 				<div class="columna columna-25 columna-mobile-100">
@@ -220,9 +237,9 @@
 						Temas relacionados
 					</h3>
 					<ul>
-						<li><a href="#">Tema 1</a></li>
-						<li><a href="#">Tema 2</a></li>
-						<li><a href="#">Tema 3</a></li>
+						<li><a href="#">Ciber seguridad</a></li>
+						<li><a href="#">Bases de datos</a></li>
+						<li><a href="#">Automatización de porcesos</a></li>
 					</ul>
 				</div>
 				<div class="columna columna-25 columna-mobile-100">
@@ -243,12 +260,12 @@
 					</h3>
 					<ul class="redes">
 						<li>
-							<a href="#">
+							<a href="https://www.facebook.com/geoffdeep64/">
 								<i class="fa-brands fa-facebook fa-xl"></i>
 							</a>
 						</li>
 						<li>
-							<a href="#">
+							<a href="https://wa.link/xj16ys">
 							<i class="fa-brands fa-square-whatsapp fa-xl" style="color: #f7f7f7;"></i>
 							</a>
 						</li>
