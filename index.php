@@ -35,17 +35,17 @@
 		<section id="inicio">
 			<img src="img/bannerprincipal.jpg">
 			<div class="bloque-inicio">
-				<h1>Bienvenodos a GeoffDeep</h1>
+				<h1>Bienvenidos a GeoffDeep</h1>
 				<p>
-					Soporte y soluciones IT.
+				Soporte IT diseñado para satisfacer las necesidades de cada empresa de manera personalizada.
 				</p>
-				<a href="#nosotros" class="boton boton-rojo">Ver más</a>
+				<a href="#nosotros"  class="boton boton-rojo">Ver más</a>
 			</div>
 		</section>
 		<section id="nosotros" class="seccion">
 			<div class="container">
 				<p>
-					Un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto de un sitio mientras que mira su diseño.
+				Proporcionamos soporte técnico las 24 horas del día a su infraestructura de TI, para que tu organización pueda operar las 24 horas del día sin fallos.
 			    </p>
 			</div>
 		</section>
@@ -60,9 +60,13 @@
 						<div class="bloque-contenido-servicio">
 							<h3>Soporte técnico</h3>
 							<p>
-								Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto de un sitio mientras que mira su diseño. 
-								El punto de usar Lorem Ipsum es que tiene una distribución más o menos normal de las letras, al contrario de usar textos como por ejemplo "Contenido aquí, contenido aquí". 
-								Estos textos hacen parecerlo un español que se puede leer.
+							Geoffdeep comprende la importancia de un sistema informático en pleno funcionamiento para el éxito y desempeño empresarial.
+							Nuestro equipo de expertos en soporte IT está disponible para otorgar asistencia técnica inmediata y resolver cualquier problema 
+							relacionado con el hardware, software y seguridad informática.  Ya sea por la necesidad de solucionar un fallo del sistema, una 
+							configuración incorrecta o enfrentar una amenaza de seguridad, nuestro equipo está preparado para aportar soluciones rápidas y efectivas, 
+							minimizando el tiempo de inactividad y optimizando el rendimiento del sistema. Nuestro compromiso es ofrecerte una solución de soporte informático 
+							que vaya más allá de lo convencional. Nos centramos en todos los aspectos de la infraestructura de TI de tu empresa, incluyendo redes, seguridad y gestión de datos.
+							Nos dedicamos a asegurar que tus sistemas estén optimizados y funcionen a su máximo potencial. 
 							</p>
 								<a href="#" class="boton boton-blanco">Ver más</a>
 						</div>
@@ -76,11 +80,17 @@
 						<div class="bloque-contenido-servicio">
 							<h3>Seguridad eléctronica</h3>
 							<p>
-								Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto de un sitio mientras que mira su diseño. 
-								El punto de usar Lorem Ipsum es que tiene una distribución más o menos normal de las letras, al contrario de usar textos como por ejemplo "Contenido aquí, contenido aquí". 
-								Estos textos hacen parecerlo un español que se puede leer.
+							En Geoffdeep te ofrecemos las más modernas soluciones de video para tu empresa o edificación.
+							Hay diferentes tipos de necesidades, y para cada una tenemos el tipo de cámaras ideales.
 							</p>
-								<a href="#" class="boton boton-blanco">Ver más</a>
+							<h4>Tipos de uso</h4>
+							<p>
+								<li>Seguridad</li>
+							    <li>Mercadeo</li>
+							    <li>Control de procesos</li>
+							    <li>Supervisión y productividad</li>
+						</p>
+                        <a href="#" class="boton boton-blanco">Ver más</a>
 								
 						</div>
 					</div>
@@ -91,11 +101,10 @@
 							<img src="img/servicio3.jpg">
 						</div>
 						<div class="bloque-contenido-servicio">
-							<h3>Desarrollo de aplicaciones web</h3>
+							<h3>Desarrollo web</h3>
 							<p>
-								Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto de un sitio mientras que mira su diseño. 
-								El punto de usar Lorem Ipsum es que tiene una distribución más o menos normal de las letras, al contrario de usar textos como por ejemplo "Contenido aquí, contenido aquí". 
-								Estos textos hacen parecerlo un español que se puede leer.
+							Nuestro servicio de diseño de páginas web, es desarrollado con diferentes tecnologías dependiendo del tipo de sitio de su elección. Nuestra empresa no se preocupa tan solo del diseño del sitio, sino también que el sitio web contenga los canales de comunicación con su potencial cliente, 
+							como por ejemplo: Formularios de contacto, teléfonos visibles, WhatsApp web, botones para cotizar, botones de llamada y estadísticas.
 							</p>
 								<a href="#" class="boton boton-blanco">Ver más</a>
 						</div>
@@ -225,7 +234,7 @@
 
 						<li><i class="fa-solid fa-phone fa-lg" style="color: #ff941a;"></i> (+502)48410140</li>
 
-						<li><i class="fa-solid fa-location-dot fa-lg" style="color: #ff941a;"></i> Guatemala<br>Guatemala</li>
+						<li><i class="fa-solid fa-location-dot fa-lg" style="color: #ff941a;"></i> Chimaltenango, Guatemala</li>
 					</ul>
 				</div>
 				<div class="columna columna-25 columna-mobile-100">

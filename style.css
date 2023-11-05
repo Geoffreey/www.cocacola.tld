@@ -270,18 +270,21 @@ footer .redes a
 	width: 400px;
 	text-align: center;
 	margin-left: -200px;
+	
 }
 
 #inicio .bloque-inicio h1
 {
 	color: white;
 	font: 35px;
+	background: linear-gradient(to bottom, #070523 0%, rgba(246, 244, 244, 0) 100%);
 }
 
 #inicio .bloque-inicio p
 {
 	color: white;
 	font-size: 16px;
+	background: linear-gradient(to bottom, #070523 0%, rgba(246, 244, 244, 0) 100%);
 }
 
 #nosotros
