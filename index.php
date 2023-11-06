@@ -64,24 +64,14 @@
 							Nuestro equipo de expertos en soporte IT está disponible para otorgar asistencia técnica inmediata y resolver cualquier problema 
 							relacionado con el hardware, software y seguridad informática.
 							Ya sea por la necesidad de solucionar un fallo del sistema, una 
-							configuración incorrecta o enfrentar una amenaza de seguridad, nuestro equipo está preparado para aportar soluciones rápidas y efectivas, 
-							minimizando el tiempo de inactividad y optimizando el rendimiento del sistema. Nuestro compromiso es ofrecerte una solución de soporte informático 
-							que vaya más allá de lo convencional. Nos centramos en todos los aspectos de la infraestructura de TI de tu empresa, incluyendo redes, seguridad y gestión de datos.
-							Nos dedicamos a asegurar que tus sistemas estén optimizados y funcionen a su máximo potencial.
+							configuración incorrecta o enfrentar una amenaza de seguridad, nuestro equipo está preparado para aportar soluciones rápidas y efectivas.
                             </p>
-							<!--<span class="dots">...</span>
-							<p class="extra">		
-							Ya sea por la necesidad de solucionar un fallo del sistema, una 
-							configuración incorrecta o enfrentar una amenaza de seguridad, nuestro equipo está preparado para aportar soluciones rápidas y efectivas, 
-							minimizando el tiempo de inactividad y optimizando el rendimiento del sistema. Nuestro compromiso es ofrecerte una solución de soporte informático 
-							que vaya más allá de lo convencional. Nos centramos en todos los aspectos de la infraestructura de TI de tu empresa, incluyendo redes, seguridad y gestión de datos.
-							Nos dedicamos a asegurar que tus sistemas estén optimizados y funcionen a su máximo potencial. 
-							</p>
-								<input type="checkbox" id="btn">
-								<label for="tbn"></label>-->
+							<a href="http://localhost/geoffsuport/hms/user-login.php"  class="boton boton-blanco">Solicitar soporte</a>
+							
 						</div>
 					</div>
 				</div>
+
 				<div class="columna columna-33 columna-mobile-100">
 					<div class="bloque-servicio">
 						<div class="bloque-img-servicio cuadrado-perfecto">
@@ -93,7 +83,6 @@
 							En Geoffdeep te ofrecemos las más modernas soluciones de video para tu empresa o edificación.
 							Hay diferentes tipos de necesidades, y para cada una tenemos el tipo de cámaras ideales.
 							</p>
-							<!--<span class="dots">...</span>-->
 							<h4>Tipos de uso</h4>
 							<p class="extra">
 								<li>Seguridad</li>
@@ -101,29 +90,58 @@
 							    <li>Control de procesos</li>
 							    <li>Supervisión y productividad</li>
                         </p>
-                        <!--<input type="checkbox" id="btn">
-						<label for="tbn"></label>-->
-								
+						<a href="https://wa.link/xj16ys"  class="boton boton-blanco">Solicitar cotización</a>	
 						</div>
 					</div>
 				</div>
+
 				<div class="columna columna-33 columna-mobile-100">
 					<div class="bloque-servicio">
 						<div class="bloque-img-servicio cuadrado-perfecto">
 							<img src="img/servicio3.jpg">
 						</div>
 						<div class="bloque-contenido-servicio">
-							<h3>Desarrollo web</h3>
+							<h3>Desarrollo y mantenimiento web</h3>
 							<p>
 							Nuestro servicio de diseño de páginas web, es desarrollado con diferentes tecnologías dependiendo del tipo de sitio de su elección.
 							Nuestra empresa no se preocupa tan solo del diseño del sitio, sino también que el sitio web contenga los canales de comunicación con su potencial cliente, 
 							como por ejemplo: Formularios de contacto, teléfonos visibles, WhatsApp web, botones para cotizar, botones de llamada y estadísticas.
 							</p>
-							<!--<span class="dots">...</span>
-							<p class="extra">Nuestra empresa no se preocupa tan solo del diseño del sitio, sino también que el sitio web contenga los canales de comunicación con su potencial cliente, 
-							como por ejemplo: Formularios de contacto, teléfonos visibles, WhatsApp web, botones para cotizar, botones de llamada y estadísticas.</p>
-							<input type="checkbox" id="btn">
-							<label for="tbn"></label>-->
+							<a href="https://prueba.geoffdeep.pw/"  class="boton boton-blanco">Demo</a>
+						</div>
+				    </div>
+			    </div>
+
+				<div class="columna columna-33 columna-mobile-100">
+					<div class="bloque-servicio">
+						<div class="bloque-img-servicio cuadrado-perfecto">
+							<img src="img/puntoventa.jpg">
+						</div>
+						<div class="bloque-contenido-servicio">
+							<h3>Sistema punto de venta con gestion de stock</h3>
+							<p>
+							Nuestro servicio de diseño de páginas web, es desarrollado con diferentes tecnologías dependiendo del tipo de sitio de su elección.
+							Nuestra empresa no se preocupa tan solo del diseño del sitio, sino también que el sitio web contenga los canales de comunicación con su potencial cliente, 
+							como por ejemplo: Formularios de contacto, teléfonos visibles, WhatsApp web, botones para cotizar, botones de llamada y estadísticas.
+							</p>
+							<a href="https://prueba.geoffdeep.pw/"  class="boton boton-blanco">Demo</a>
+						</div>
+				    </div>
+			    </div>
+
+				<div class="columna columna-33 columna-mobile-100">
+					<div class="bloque-servicio">
+						<div class="bloque-img-servicio cuadrado-perfecto">
+							<img src="img/medic.jpg">
+						</div>
+						<div class="bloque-contenido-servicio">
+							<h3>Sistema control de citas clnicas</h3>
+							<p>
+							Nuestro servicio de diseño de páginas web, es desarrollado con diferentes tecnologías dependiendo del tipo de sitio de su elección.
+							Nuestra empresa no se preocupa tan solo del diseño del sitio, sino también que el sitio web contenga los canales de comunicación con su potencial cliente, 
+							como por ejemplo: Formularios de contacto, teléfonos visibles, WhatsApp web, botones para cotizar, botones de llamada y estadísticas.
+							</p>
+							<a href="https://clinica.geoffdeep.pw/index.html"  class="boton boton-blanco">Demo</a>
 						</div>
 				    </div>
 			    </div>
@@ -190,33 +208,71 @@
 							<div class="form-block bloque-ultimo">
 								<input type="submit" class="boton boton-negro" value="enviar">
 							</div>
-							<?php 
-								if($_SERVER["REQUEST_METODO"] == "POST")
-								{
-									$nombre = $_POST["nombre"] ;
-									$email = $_POST["email"] ;
-									$mensaje = $_POST["mensaje"] ;
+							
+							<?php
 
-									if(isset($nombre))
-									{
-										if(isset($email))
-										{
-											if(isset($mensaje))
-											{
-												$para = "micorreo@gmail.com";
-												$asunto = "Esto es una prueba";
-												$cuerpo = $nombre."\n".$email."\n".$mensaje;
-												$adicional = "From: noresponder@correo.com";
+                                // Verifica si el formulario ha sido enviado
 
-												mail($para, $asunto, $cuerpo, $adicional);
-											?>
-												<p>Envio exitoso</p>
-												<?php
-											}
-										}
-									}
-								}
-							?>
+                                if(isset($_POST['email'])) {
+
+
+                               // Cambia las próximas dos líneas con tu dirección de email y el asunto del email
+
+                              $email_to = "info@geoffdeep.pw";
+
+                              $email_subject = "Contacto desde el sitio web";
+
+
+                              // Validación de los campos del formulario. En caso de que alguno de los campos no exista, retorna un error.
+
+                              if(!isset($_POST['nombre']) ||
+
+                              !isset($_POST['email']) ||
+
+                              !isset($_POST['mensaje'])) {
+
+
+                              echo "<b>Ocurrió un error y el formulario no ha sido enviado. </b><br />";
+
+                              echo "Por favor, vuelva atrás y verifique la información ingresada<br />";
+
+                              die();
+
+                              }
+
+
+                             // Construcción del mensaje del email
+
+                             $email_message = "Detalles del formulario de contacto:\n\n";
+
+                             $email_message .= "Nombre: " . $_POST['nombre'] . "\n";
+
+                             $email_message .= "E-mail: " . $_POST['email'] . "\n";
+
+                             $email_message .= "mensaje: " . $_POST['mensaje'] . "\n\n";
+
+
+                             // Creación de las cabeceras del email
+
+                             $headers = 'From: '.$email_from."\r\n".
+
+                             'Reply-To: '.$email_from."\r\n" .
+
+                             'X-Mailer: PHP/' . phpversion();
+
+
+                             // Envío del email
+
+                            @mail($email_to, $email_subject, $email_message, $headers);
+
+
+                            // Mensaje de confirmación al usuario
+
+                            echo "¡El formulario se ha enviado con éxito!";
+
+                           }
+
+                          ?>
 						</form>
 					</div>
 				</div>
