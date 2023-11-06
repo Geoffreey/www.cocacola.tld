@@ -208,7 +208,6 @@
 							<div class="form-block bloque-ultimo">
 								<input type="submit" class="boton boton-negro" value="enviar">
 							</div>
-							
 							<?php
 
                                 // Verifica si el formulario ha sido enviado
