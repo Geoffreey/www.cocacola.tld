@@ -5,8 +5,7 @@
 	<meta name="viewport" content="Cocacola es la bebida">
 	<meta name="keywords" content="bebida, gaseos, cola">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>
-		Inicio - GeoffDeep	</title>
+	<title>Inicio - GeoffDeep	</title>
 	<link rel="shortcut icon" href="img/favicon.png">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,7 +17,7 @@
 <body>
 	<header>
 		<div class="container">
-			<a href="index.html">
+			<a href="index.php">
 				<img src="img/logo.png" class="logo">
 			</a>
 			<nav>
@@ -61,13 +60,24 @@
 							<h3>Soporte técnico</h3>
 							<p>
 							Geoffdeep comprende la importancia de un sistema informático en pleno funcionamiento para el éxito y desempeño empresarial.
+							</p>
+							<span class="hide" id="hideText1">
+							<p>
 							Nuestro equipo de expertos en soporte IT está disponible para otorgar asistencia técnica inmediata y resolver cualquier problema 
 							relacionado con el hardware, software y seguridad informática.
-							Ya sea por la necesidad de solucionar un fallo del sistema, una 
-							configuración incorrecta o enfrentar una amenaza de seguridad, nuestro equipo está preparado para aportar soluciones rápidas y efectivas.
+							</p>
+							<h4>Servicios de soporte</h4>
+							<p>
+								<li>Mantenimineto preventivo</li>
+								<li>Mantenimineto correctivo</li>
+								<li>Asistencia remota</li>
+								<li>Asistencia precencial</li>
+								<li>Configuracion de rede LAN y WAN</li>
+								<li>venta de suministros de computacion e impresión</li>
                             </p>
 							<a href="http://localhost/geoffsuport/hms/user-login.php"  class="boton boton-blanco">Solicitar soporte</a>
-							
+							</span>
+							<a class="boton boton-azul" id="hideText_btn1">ver mas</a>
 						</div>
 					</div>
 				</div>
@@ -81,8 +91,9 @@
 							<h3>Seguridad eléctronica</h3>
 							<p>
 							En Geoffdeep te ofrecemos las más modernas soluciones de video para tu empresa o edificación.
-							Hay diferentes tipos de necesidades, y para cada una tenemos el tipo de cámaras ideales.
+							Hay diferentes tipos de necesidades.
 							</p>
+							<span class="hide" id="hideText2">
 							<h4>Tipos de uso</h4>
 							<p class="extra">
 								<li>Seguridad</li>
@@ -90,7 +101,9 @@
 							    <li>Control de procesos</li>
 							    <li>Supervisión y productividad</li>
                         </p>
-						<a href="https://wa.link/xj16ys"  class="boton boton-blanco">Solicitar cotización</a>	
+						<a href="https://wa.link/xj16ys"  class="boton boton-blanco">Solicitar cotización</a>
+						</span>
+						<a class="boton boton-azul" id="hideText_btn2">ver mas</a>
 						</div>
 					</div>
 				</div>
@@ -101,13 +114,18 @@
 							<img src="img/servicio3.jpg">
 						</div>
 						<div class="bloque-contenido-servicio">
-							<h3>Desarrollo y mantenimiento web</h3>
+							<h3>Desarrollo web</h3>
 							<p>
 							Nuestro servicio de diseño de páginas web, es desarrollado con diferentes tecnologías dependiendo del tipo de sitio de su elección.
+							</P>
+							<span class="hide" id="hideText3">
+							<P>
 							Nuestra empresa no se preocupa tan solo del diseño del sitio, sino también que el sitio web contenga los canales de comunicación con su potencial cliente, 
 							como por ejemplo: Formularios de contacto, teléfonos visibles, WhatsApp web, botones para cotizar, botones de llamada y estadísticas.
 							</p>
 							<a href="https://prueba.geoffdeep.pw/"  class="boton boton-blanco">Demo</a>
+							</span>
+							<a class="boton boton-azul" id="hideText_btn3">ver mas</a>
 						</div>
 				    </div>
 			    </div>
@@ -118,13 +136,33 @@
 							<img src="img/puntoventa.jpg">
 						</div>
 						<div class="bloque-contenido-servicio">
-							<h3>Sistema punto de venta con gestion de stock</h3>
+							<h3>Sistema punto de venta multisucursal moderno</h3>
 							<p>
-							Nuestro servicio de diseño de páginas web, es desarrollado con diferentes tecnologías dependiendo del tipo de sitio de su elección.
-							Nuestra empresa no se preocupa tan solo del diseño del sitio, sino también que el sitio web contenga los canales de comunicación con su potencial cliente, 
-							como por ejemplo: Formularios de contacto, teléfonos visibles, WhatsApp web, botones para cotizar, botones de llamada y estadísticas.
+							Nuestro sistema POS moderno permite gestionar tu genocio desde cualquier parte de donde estes, a si mismo puedes gestionar
+							sucurales con stock indivisual por sucural, puedes gestionar usarios con pribilegios, realizar ventas con tarjeta,
+							efectivo o al credito.
 							</p>
-							<a href="https://prueba.geoffdeep.pw/"  class="boton boton-blanco">Demo</a>
+							<span class="hide" id="hideText">
+							  <h3>Modulos</h3>
+							    <p class="extra">
+									<li>Consola de administración (Dashboard)</li>
+									<li>Punto de venta</li>
+									<li>Reporte de ventas</li>
+									<li>Cotizaciones</li>
+									<li>Cuentas por cobrar</li>
+									<li>Cuentas por pagas</li>
+									<li>Trasferencias de stock</li>
+									<li>Inventario de producto</li>
+									<li>Clientes</li>
+									<li>Proveedores</li>
+									<li>Contabilidad</li>
+									<li>Administración de prestamos</li>
+									<li>Administracióm de usuarios</li>
+									<li>Reportes y graficas</li>
+							    </p>
+								<a href="https://prueba.geoffdeep.pw/"  class="boton boton-blanco">Demo</a>
+							</span>
+							<a class="boton boton-azul" id="hideText_btn">ver mas</a>
 						</div>
 				    </div>
 			    </div>
@@ -137,11 +175,24 @@
 						<div class="bloque-contenido-servicio">
 							<h3>Sistema control de citas clnicas</h3>
 							<p>
-							Nuestro servicio de diseño de páginas web, es desarrollado con diferentes tecnologías dependiendo del tipo de sitio de su elección.
-							Nuestra empresa no se preocupa tan solo del diseño del sitio, sino también que el sitio web contenga los canales de comunicación con su potencial cliente, 
-							como por ejemplo: Formularios de contacto, teléfonos visibles, WhatsApp web, botones para cotizar, botones de llamada y estadísticas.
+							Nuestro sistema de gestión de citas y control de expedientes clinicos ayuda a reducir gastos generados por expedientes
+							ficicos, facilita al paciente poder agendar una cita con los especialistas del centro medico o clinica de una forma mas 
+							facil y rapido.
 							</p>
-							<a href="https://clinica.geoffdeep.pw/index.html"  class="boton boton-blanco">Demo</a>
+							<span class="hide" id="hideText4">
+							  <h4>Bemeficios</h4>
+							    <p>
+									<li>Historial medico digital y en linea</li>
+									<li>Agenda de citas en linea</li>
+									<li>gestion de pacientes en linea</li>
+									<li>Correo electronico corporativo</li>
+									<li>Domino y alojamiento de la app incluido</li>
+									<li>Sitio web</li>
+									<li>Soporte tecnico 24/7</li>
+							    </p>
+							    <a href="https://clinica.geoffdeep.pw/index.html"  class="boton boton-blanco">Demo</a>
+                            </span>
+							<a class="boton boton-azul" id="hideText_btn4">ver mas</a>
 						</div>
 				    </div>
 			    </div>

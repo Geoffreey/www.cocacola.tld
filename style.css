@@ -218,6 +218,7 @@ footer .redes a
 .columna-33
 {
 	width: 33.33%;
+	padding-top: 15px;
 }
 
 .columna-41
@@ -414,6 +415,21 @@ footer .redes a
 {
 	margin-bottom: 0;
 
+}
+
+.hide {
+	display: none;
+}
+
+.show {
+	display: block;
+}
+
+.boton.boton-azul {
+	text-align: center;
+	color: orange;
+	font-size: 20px;
+	font-weight: bold;
 }
 
 
