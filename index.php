@@ -176,7 +176,7 @@
 							<h3>Sistema control de citas clnicas</h3>
 							<p>
 							Nuestro sistema de gestión de citas y control de expedientes clinicos ayuda a reducir gastos generados por expedientes
-							ficicos, facilita al paciente poder agendar una cita con los especialistas del centro medico o clinica de una forma mas 
+							ficicos, evitar aglomeracines consulta extern. Facilita al paciente poder agendar una cita con los especialistas del centro medico o clinica de una forma mas 
 							facil y rapido.
 							</p>
 							<span class="hide" id="hideText4">
