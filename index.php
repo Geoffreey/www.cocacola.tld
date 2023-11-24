@@ -51,7 +51,7 @@
 		<section id="servicios" class="seccion">
 			<div class="container">
 			<div class="row">
-				<div class="columna columna-33 columna-mobile-100">
+				<div class="columna columna-33 columna-mobile-100" id="printIt">
 					<div class="bloque-servicio">
 						<div class="bloque-img-servicio cuadrado-perfecto">
 							<img src="img/servicio1.jpg">
@@ -76,6 +76,7 @@
 								<li>venta de suministros de computacion e impresión</li>
                             </p>
 							<a href="http://localhost/geoffsuport/hms/user-login.php"  class="boton boton-blanco">Solicitar soporte</a>
+							<button class="btn btn-primary waves-effect waves-light w-lg" onClick="printOut('printIt')">Imprimir</button>
 							</span>
 							<a class="boton boton-azul" id="hideText_btn1">ver mas</a>
 						</div>
