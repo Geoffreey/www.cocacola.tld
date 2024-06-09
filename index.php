@@ -269,7 +269,7 @@
 
                                // Cambia las próximas dos líneas con tu dirección de email y el asunto del email
 
-                              $email_to = "info@geoffdeep.pw";
+                              $email_to = "info@geoffdevops.com";
 
                               $email_subject = "Contacto desde el sitio web";
 
