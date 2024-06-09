@@ -161,6 +161,7 @@
 									<li>Reportes y graficas</li>
 							    </p>
 								<a href="https://wa.link/xj16ys"  class="boton boton-blanco">Demo</a>
+								<a href="http://doc.geoffdevops.com/"  class="boton boton-blanco">Vista</a>
 							</span>
 							<a class="boton boton-azul" id="hideText_btn">ver mas</a>
 						</div>
