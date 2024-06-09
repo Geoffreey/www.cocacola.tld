@@ -75,8 +75,7 @@
 								<li>Configuracion de rede LAN y WAN</li>
 								<li>venta de suministros de computacion e impresión</li>
                             </p>
-							<a href="http://localhost/geoffsuport/hms/user-login.php"  class="boton boton-blanco">Solicitar soporte</a>
-							<button class="btn btn-primary waves-effect waves-light w-lg" onClick="printOut('printIt')">Imprimir</button>
+							<a href="https://wa.link/xj16ys"  class="boton boton-blanco">Solicitar soporte</a>
 							</span>
 							<a class="boton boton-azul" id="hideText_btn1">ver mas</a>
 						</div>
@@ -161,7 +160,7 @@
 									<li>Administracióm de usuarios</li>
 									<li>Reportes y graficas</li>
 							    </p>
-								<a href="https://prueba.geoffdeep.pw/"  class="boton boton-blanco">Demo</a>
+								<a href="https://wa.link/xj16ys"  class="boton boton-blanco">Demo</a>
 							</span>
 							<a class="boton boton-azul" id="hideText_btn">ver mas</a>
 						</div>
@@ -191,7 +190,7 @@
 									<li>Sitio web</li>
 									<li>Soporte tecnico 24/7</li>
 							    </p>
-							    <a href="https://clinica.geoffdeep.pw/index.html"  class="boton boton-blanco">Demo</a>
+							    <a href="https://wa.link/xj16ys"  class="boton boton-blanco">Demo</a>
                             </span>
 							<a class="boton boton-azul" id="hideText_btn4">ver mas</a>
 						</div>
@@ -354,7 +353,7 @@
 						Datos de contacto
 					</h3>
 					<ul>
-						<li><i class="fa-solid fa-envelope fa-lg" style="color: #ff941a;"></i> info@geoffdeep.pw</li>
+						<li><i class="fa-solid fa-envelope fa-lg" style="color: #ff941a;"></i> info@geoffdevops.com</li>
 
 						<li><i class="fa-solid fa-phone fa-lg" style="color: #ff941a;"></i> (+502)48410140</li>
 
