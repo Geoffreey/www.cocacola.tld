@@ -123,7 +123,7 @@
 							Nuestra empresa no se preocupa tan solo del diseño del sitio, sino también que el sitio web contenga los canales de comunicación con su potencial cliente, 
 							como por ejemplo: Formularios de contacto, teléfonos visibles, WhatsApp web, botones para cotizar, botones de llamada y estadísticas.
 							</p>
-							<a href="https://prueba.geoffdeep.pw/"  class="boton boton-blanco">Demo</a>
+							<a href="https://wa.link/xj16ys"  class="boton boton-blanco">Demo</a>
 							</span>
 							<a class="boton boton-azul" id="hideText_btn3">ver mas</a>
 						</div>
