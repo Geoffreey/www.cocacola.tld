@@ -332,10 +332,7 @@ footer .redes a
 	font-size: 25px;
 }
 
-#galeria
-{
 
-}
 
 #galeria h4
 {
@@ -406,10 +403,10 @@ footer .redes a
 {
 	display: block;
 	height: 100px;
-	fontr: 1px solid grey;
+	font: 1px solid grey;
 	width: 100%;
-	padd-size: 16px;
-	bordeing: 5px 10px;
+	padding: 16px;
+	border: 5px 10px;
 }
 
 #contactenos form .form-block.bloque-ultimo
