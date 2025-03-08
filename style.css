@@ -351,29 +351,10 @@ footer .redes a
     text-align: center;
 }
 
-#servicios .bloque-servicio .bloque-contenido-servicio p {
-    margin-bottom: 10px;
-}
+#galeria
+{
 
-/* Espacio entre el botón "ver más" y el contenido */
-.boton.boton-azul {
-    cursor: pointer;
-    margin-top: 15px;
 }
-
-/* RESPONSIVE: Ajuste para móviles */
-@media (max-width: 992px) {
-    #servicios .columna {
-        width: calc(50% - 20px); /* 2 columnas por fila en tablets */
-    }
-}
-
-@media (max-width: 768px) {
-    #servicios .columna {
-        width: 100%; /* 1 columna por fila en móviles */
-    }
-}
-
 
 #galeria h4
 {
@@ -444,10 +425,10 @@ footer .redes a
 {
 	display: block;
 	height: 100px;
-	fontr: 1px solid grey;
+	font: 1px solid grey;
 	width: 100%;
-	padd-size: 16px;
-	bordeing: 5px 10px;
+	padding: 16px;
+	border: 5px 10px;
 }
 
 #contactenos form .form-block.bloque-ultimo
