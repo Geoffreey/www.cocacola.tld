@@ -183,7 +183,7 @@
 							facil y rapida.
 							</p>
 							<span class="hide" id="hideText4">
-							  <h4>Bemeficios</h4>
+							  <h4>Beneficios</h4>
 							    <p>
 									<li>Historial medico digital y en linea</li>
 									<li>Agenda de citas en linea</li>

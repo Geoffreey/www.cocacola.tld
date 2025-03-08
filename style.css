@@ -305,37 +305,75 @@ footer .redes a
 	/*/margin: 0;*/
 }
 
-#servicios .bloque-servicio
-{
-	border: 1px solid grey;
+#servicios .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Asegura que las columnas estén bien distribuidas */
+    gap: 20px; /* Espaciado entre las columnas */
 }
 
-#servicios .bloque-servicio .bloque-img-servicio img
-{
-	width: 100%;
-
+#servicios .columna {
+    display: flex;
+    flex-direction: column;
+    width: calc(33.33% - 20px); /* Ajuste para que quepan 3 columnas con margen */
 }
 
-#servicios .bloque-servicio .bloque-img-servicio.cuadrado-perfecto
-{
-	padding-bottom: 56.25%;
+#servicios .bloque-servicio {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    height: 100%;
+    border: 1px solid grey;
+    padding: 15px; /* Espaciado interno */
 }
 
-#servicios .bloque-servicio .bloque-contenido-servicio
-{
-	padding:  15px;
+#servicios .bloque-servicio .bloque-img-servicio img {
+    width: 100%;
+    border-radius: 8px;
 }
 
-#servicios .bloque-servicio .bloque-contenido-servicio h3
-{
-	margin-top: 0;
-	font-size: 25px;
+#servicios .bloque-servicio .bloque-img-servicio.cuadrado-perfecto {
+    padding-bottom: 56.25%;
 }
 
-#galeria
-{
-
+#servicios .bloque-servicio .bloque-contenido-servicio {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 15px; /* Espacio entre la imagen y el texto */
+    min-height: 250px;
 }
+
+#servicios .bloque-servicio .bloque-contenido-servicio h3 {
+    margin-top: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+
+#servicios .bloque-servicio .bloque-contenido-servicio p {
+    margin-bottom: 10px;
+}
+
+/* Espacio entre el botón "ver más" y el contenido */
+.boton.boton-azul {
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+/* RESPONSIVE: Ajuste para móviles */
+@media (max-width: 992px) {
+    #servicios .columna {
+        width: calc(50% - 20px); /* 2 columnas por fila en tablets */
+    }
+}
+
+@media (max-width: 768px) {
+    #servicios .columna {
+        width: 100%; /* 1 columna por fila en móviles */
+    }
+}
+
 
 #galeria h4
 {
