@@ -718,7 +718,7 @@ footer .redes a
 
 	#servicios .bloque-contenido-servicio li {
 		list-style-position: inside; /* Mantiene la viñeta pegada al texto */
-		text-align: center; /* Justifica el texto dentro de la lista */
+		text-align: justify; /* Justifica el texto dentro de la lista */
 		padding-left: 0; /* Elimina cualquier indentación extra */
 		margin-left: 0; /* Asegura que no haya separación extra */
 	}
