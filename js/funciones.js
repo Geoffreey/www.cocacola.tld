@@ -114,3 +114,33 @@ function printOut(divId) {
     window.print();
     document.body.innerHTML = originalContent;
   }
+
+  document.addEventListener("DOMContentLoaded", function () {
+    console.log("✅ El script funciones.js se está ejecutando correctamente.");
+
+    const botones = document.querySelectorAll(".boton-azul");
+
+    botones.forEach((boton, index) => {
+        boton.addEventListener("click", function () {
+            console.log(`🟢 Se hizo clic en el botón ${index + 1}`);
+
+            // Encuentra la tarjeta de servicio asociada
+            const bloqueServicio = this.closest(".bloque-servicio");
+
+            // Alternar la clase expandido
+            if (bloqueServicio.classList.contains("expandido")) {
+                bloqueServicio.classList.remove("expandido");
+                this.textContent = "Ver más"; // Cambia el texto del botón
+            } else {
+                // Cerrar todas las demás tarjetas antes de expandir la nueva
+                document.querySelectorAll(".bloque-servicio.expandido").forEach((abierto) => {
+                    abierto.classList.remove("expandido");
+                    abierto.querySelector(".boton-azul").textContent = "Ver más";
+                });
+
+                bloqueServicio.classList.add("expandido");
+                this.textContent = "Ver menos"; // Cambia el texto del botón
+            }
+        });
+    });
+});

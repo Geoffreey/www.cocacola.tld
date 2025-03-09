@@ -18,19 +18,21 @@ a
 /*selector por etiqueta/*/
 p
 {
-	color: rgb(0, 0, 0);
+	color: rgb(248, 245, 245);
 }
 
-header
-{
-	padding: 15px 0;
-	position: fixed;
-	top: 0;
-	left: 0;
-	z-index: 2;
-	background-color: #070523;
-	width: 100%;
+header {
+    position: fixed; /* Hace que el header se quede fijo en la parte superior */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Asegura que el header siempre esté arriba */
+    background-color: #070523; /* Color de fondo para evitar que sea transparente */
+    padding: 15px 0;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Agrega una sombra para diferenciar el header */
 }
+
+
 
 header .container
 {
@@ -253,40 +255,80 @@ footer .redes a
 }
 
 /*/Selector por ID/*/
-#inicio
-{
-	position: relative;
+#inicio {
+    position: relative;
+    background: url("img/bannerprincipal.jpg") center/cover fixed;
+    height: 100vh; /* Ocupar toda la pantalla */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Asegura que comience desde arriba */
+    text-align: center;
+    padding-top: 400px; /* Aumentamos el espacio para bajarlo */
+    color: white;
 }
 
-#inicio img
-{
-	width: 100%;
-	display: block;
+/* Capa oscura sobre la imagen de fondo */
+#inicio {
+    position: relative;
+    background: url("img/bannerprincipal.jpg") center/cover fixed;
+    height: 100vh; /* Ocupar toda la pantalla */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Inicia desde arriba */
+    text-align: center;
+    padding-top: 650px; /* BAJA MÁS el contenido */
+    color: white;
 }
 
-#inicio .bloque-inicio
-{
-	position: absolute;
-	top: 68%;
-	left: 50%;
-	width: 400px;
-	text-align: center;
-	margin-left: -200px;
-	
+/* Capa oscura sobre la imagen de fondo */
+#inicio::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7); /* Aplica opacidad correctamente */
+    z-index: 0; /* Debe estar sobre la imagen pero detrás del contenido */
 }
 
-#inicio .bloque-inicio h1
-{
-	color: white;
-	font: 35px;
-	background: linear-gradient(to bottom, #070523 0%, rgba(246, 244, 244, 0) 100%);
+/* Contenedor del texto y botón */
+#inicio .bloque-inicio {
+    width: 100%;
+    max-width: 500px;
+    position: relative;
+    z-index: 2; /* Asegura que esté sobre la capa oscura */
 }
 
-#inicio .bloque-inicio p
-{
-	color: white;
-	font-size: 16px;
-	background: linear-gradient(to bottom, #070523 0%, rgba(246, 244, 244, 0) 100%);
+/* Título y párrafo */
+#inicio .bloque-inicio h1 {
+    font-size: 35px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#inicio .bloque-inicio p {
+    font-size: 18px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+/* Botón */
+#inicio .boton {
+    margin-top: 20px;
+    padding: 12px 24px;
+    font-size: 16px;
+    background-color: #ff7300;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+#inicio .boton:hover {
+    background-color: #ff941a;
 }
 
 #nosotros
@@ -305,55 +347,118 @@ footer .redes a
 	/*/margin: 0;*/
 }
 
+#servicios {
+    position: relative;
+    background: url("img/bannerprincipal.jpg") center/cover fixed;
+    color: white;
+}
+
+/* Capa oscura para mejorar la legibilidad */
+#servicios::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#servicios .container {
+    position: relative;
+    z-index: 2;
+}
+
 #servicios .row {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between; /* Asegura que las columnas estén bien distribuidas */
-    gap: 20px; /* Espaciado entre las columnas */
+    justify-content: space-between;
+    gap: 20px;
 }
 
 #servicios .columna {
     display: flex;
     flex-direction: column;
-    width: calc(33.33% - 20px); /* Ajuste para que quepan 3 columnas con margen */
+    width: calc(33.33% - 20px);
 }
 
+/* Fondo sólido oscuro en cada servicio */
 #servicios .bloque-servicio {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
     height: 100%;
-    border: 1px solid grey;
-    padding: 15px; /* Espaciado interno */
+    background: rgba(20, 20, 20, 0.9);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 8px;
+    transition: min-height 0.3s ease-in-out;
 }
 
+/* Ajuste de imágenes dentro de los servicios */
 #servicios .bloque-servicio .bloque-img-servicio img {
     width: 100%;
     border-radius: 8px;
 }
 
-#servicios .bloque-servicio .bloque-img-servicio.cuadrado-perfecto {
-    padding-bottom: 56.25%;
-}
-
-#servicios .bloque-servicio .bloque-contenido-servicio {
+/* Contenido dentro de cada servicio */
+#servicios .bloque-contenido-servicio {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding-top: 15px; /* Espacio entre la imagen y el texto */
+    padding-top: 15px;
     min-height: 250px;
 }
 
-#servicios .bloque-servicio .bloque-contenido-servicio h3 {
+#servicios .bloque-contenido-servicio h3 {
     margin-top: 10px;
     font-size: 25px;
     text-align: center;
+    color: white;
 }
 
-#galeria
-{
+#servicios .bloque-contenido-servicio p {
+    color: white;
+}
 
+/* Botón "Ver más" */
+#servicios .boton.boton-azul {
+    background: #ff7300;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    transition: background 0.3s;
+}
+
+#servicios .boton.boton-azul:hover {
+    background: #ff941a;
+}
+
+/* Contenido oculto */
+.hide {
+    display: none;
+    margin-top: 20px;
+}
+
+/* Contenido mostrado */
+.show {
+    display: block !important;
+    margin-top: 20px;
+}
+
+/* Espaciado entre botones y contenido */
+#servicios .bloque-contenido-servicio span {
+    margin-top: 15px;
+}
+
+#servicios .bloque-contenido-servicio a {
+    margin-bottom: 10px;
+}
+
+/* Ajuste para evitar cambios de tamaño inesperados */
+#servicios .bloque-servicio.expandido {
+    min-height: 500px;
 }
 
 #galeria h4
