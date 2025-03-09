@@ -520,6 +520,7 @@ footer .redes a
     font-size: 25px;
     text-align: center;
     color: white;
+	
 }
 
 #servicios .bloque-contenido-servicio p {
@@ -778,7 +779,7 @@ footer .redes a
 
     /* Asegura que los textos y el botón no se distorsionen */
     #servicios .bloque-servicio {
-        padding: 20px;
+        padding: 15px;
         max-width: 90%;
         margin: 0 auto;
     }
@@ -803,8 +804,9 @@ footer .redes a
     /* Asegura que las imágenes dentro de cada servicio no se deformen */
     #servicios .bloque-img-servicio img {
         width: 100%;
-        height: auto;
+        height: 290px;
         object-fit: cover;
+		
     }
 
     /* Ajuste de espaciado */
@@ -834,6 +836,8 @@ footer .redes a
 		margin-bottom: 8px; /* Agrega un pequeño espaciado entre cada elemento */
 		line-height: 1.5; /* Mejora la legibilidad */
 	}
+
+	
 
 	#nosotros {
         text-align: center;
