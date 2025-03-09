@@ -41,12 +41,55 @@
     		</div>
 		</section>
 		<section id="nosotros" class="seccion">
-			<div class="container">
-				<p>
-				Proporcionamos soporte técnico las 24 horas del día a su infraestructura de TI, para que tu organización pueda operar las 24 horas del día sin fallos.
-			    </p>
-			</div>
-		</section>
+    <div class="container">
+        <div class="row">
+            <!-- Columna de Misión y Visión -->
+            <div class="columna columna-50 columna-mobile-100">
+                <h2>¿Quiénes somos?</h2>
+                <p>
+                    En <strong>GeoffDeep</strong>, nos especializamos en ofrecer <strong>soporte técnico 24/7</strong>
+                    para garantizar que tu infraestructura de TI funcione sin interrupciones. Nuestro equipo de expertos 
+                    está listo para resolver cualquier desafío tecnológico que enfrente tu empresa.
+                </p>
+
+                <h3>Nuestra misión</h3>
+                <p>
+                    Proporcionar soluciones innovadoras y confiables en tecnología, asegurando el óptimo desempeño de 
+                    los sistemas informáticos en cualquier organización.
+                </p>
+
+                <h3>Nuestra visión</h3>
+                <p>
+                    Ser la empresa líder en **soluciones tecnológicas**, brindando un servicio excepcional que impulse
+                    la eficiencia y seguridad de las empresas, convirtiéndonos en su mejor aliado en tecnología.
+                </p>
+            </div>
+
+            <!-- Columna de Valores y Por qué elegirnos -->
+            <div class="columna columna-50 columna-mobile-100">
+                <h3>Nuestros valores</h3>
+                <ul class="valores-lista">
+                    <li><strong>Compromiso</strong>: Nos dedicamos al éxito de nuestros clientes con esfuerzo y responsabilidad.</li>
+                    <li><strong>Innovación</strong>: Aplicamos las tecnologías más avanzadas para garantizar soluciones eficaces.</li>
+                    <li><strong>Integridad</strong>: Operamos con ética, transparencia y honestidad en cada proyecto.</li>
+                    <li><strong>Excelencia</strong>: Nos esforzamos por ofrecer el mejor servicio con altos estándares de calidad.</li>
+                    <li><strong>Trabajo en equipo</strong>: La colaboración es la clave de nuestro éxito.</li>
+                </ul>
+
+                <h3>¿Por qué elegirnos?</h3>
+                <ul class="por-que-lista">
+                    <li>Respuesta rápida y eficiente.</li>
+                    <li>Soporte técnico remoto y presencial.</li>
+                    <li>Seguridad y protección para tus sistemas.</li>
+                    <li>Experiencia en el sector de tecnología.</li>
+                    <li>Atención personalizada según las necesidades de cada cliente.</li>
+                </ul>
+
+                <a href="#contactenos" class="boton boton-rojo">Contáctanos</a>
+            </div>
+        </div>
+    </div>
+</section>
 		<section id="servicios" class="seccion">
 			<div class="container">
 			<div class="row">
