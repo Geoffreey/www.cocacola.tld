@@ -33,13 +33,13 @@
 		</div>
 	</header>
 	<main>
-	<section id="inicio">
-    <div class="bloque-inicio">
-        <h1>Bienvenidos a GeoffDeep</h1>
-        <p>Soporte IT diseñado para satisfacer las necesidades de cada empresa de manera personalizada.</p>
-        <a href="#nosotros" class="boton boton-rojo">Ver más</a>
-    </div>
-</section>
+		<section id="inicio">
+    		<div class="bloque-inicio">
+        		<h1>Bienvenidos a GeoffDeep</h1>
+        		<p>Soporte IT diseñado para satisfacer las necesidades de cada empresa de manera personalizada.</p>
+        		<a href="#nosotros" class="boton boton-rojo">Ver más</a>
+    		</div>
+		</section>
 		<section id="nosotros" class="seccion">
 			<div class="container">
 				<p>

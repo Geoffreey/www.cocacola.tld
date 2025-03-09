@@ -660,9 +660,72 @@ footer .redes a
 		object-position: center;
 	}
 
-	#servicios .bloque-servicio
-	{
-		margin-bottom: 15px;
+	 /* Asegura que el contenido de cada servicio ocupe toda la pantalla */
+    #servicios .columna {
+        width: 100% !important; /* Hace que cada servicio ocupe el 100% */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    /* Asegura que los textos y el botón no se distorsionen */
+    #servicios .bloque-servicio {
+        padding: 20px;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    #servicios .bloque-contenido-servicio h3 {
+        font-size: 24px; /* Ajusta el tamaño del título */
+        margin-bottom: 10px;
+    }
+
+    #servicios .bloque-contenido-servicio p {
+        font-size: 16px; /* Ajusta el tamaño del texto */
+        line-height: 1.4;
+    }
+
+    #servicios .boton.boton-azul {
+        font-size: 16px;
+        padding: 10px 20px;
+        width: 80%;
+        margin-top: 10px;
+    }
+
+    /* Asegura que las imágenes dentro de cada servicio no se deformen */
+    #servicios .bloque-img-servicio img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    /* Ajuste de espaciado */
+    #servicios .row {
+        gap: 10px; /* Reduce el espacio entre servicios */
+    }
+
+	#servicios .boton.boton-azul {
+        font-size: 16px;
+        padding: 10px 20px;
+        width: auto; /* Para que no ocupe el 100% del ancho */
+        min-width: 150px; /* Ajusta el ancho mínimo */
+        text-align: center;
+        margin: 10px auto 0 auto; /* Centra el botón con margen */
+        display: flex;
+        justify-content: center; /* Asegura el centrado dentro del botón */
+    }
+
+	#servicios .bloque-contenido-servicio li {
+		list-style-position: inside; /* Mantiene la viñeta pegada al texto */
+		text-align: center; /* Justifica el texto dentro de la lista */
+		padding-left: 0; /* Elimina cualquier indentación extra */
+		margin-left: 0; /* Asegura que no haya separación extra */
+	}
+	
+	#servicios .bloque-contenido-servicio li {
+		margin-bottom: 8px; /* Agrega un pequeño espaciado entre cada elemento */
+		line-height: 1.5; /* Mejora la legibilidad */
 	}
 
 	#contactenos
