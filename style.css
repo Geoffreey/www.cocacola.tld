@@ -257,19 +257,18 @@ footer .redes a
 /* Sección de Inicio */
 #inicio {
     position: relative;
-    background: url("img/bannerprincipal.jpg") center/cover;
+    background: url("img/bannerprincipal.jpg") center/cover no-repeat;
     height: 100vh; /* Ocupar toda la pantalla */
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start; /* Mantiene el contenido más arriba */
+    justify-content: flex-end !important; /* 🔹 Forzar que el contenido esté abajo */
     text-align: center;
-    padding-top: 540px; /* Ajuste para bajar el contenido */
+    padding-bottom: 240px !important; /* 🔹 Aumentado para bajarlo más */
     color: white;
-    overflow: hidden; /* Evita desplazamientos innecesarios */
 }
 
-/* Capa oscura para mejorar la legibilidad */
+/* Capa oscura sobre la imagen de fondo */
 #inicio::before {
     content: "";
     position: absolute;
@@ -277,36 +276,38 @@ footer .redes a
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.7); /* Mantiene el fondo oscuro */
+    background: rgba(0, 0, 0, 0.6); /* Aplica la opacidad correctamente */
     z-index: 0;
 }
 
 /* Contenedor del texto y botón */
 #inicio .bloque-inicio {
     width: 100%;
-    max-width: 500px;
+    max-width: 600px;
     position: relative;
-    z-index: 2; /* Asegura que esté sobre la capa oscura */
+    z-index: 2;
+    padding: 20px;
+    margin-top: 70px !important; /* 🔹 Aumentado para bajarlo más */
 }
 
-/* Título y párrafo */
+/* Ajuste de título */
 #inicio .bloque-inicio h1 {
-    font-size: 35px;
+    font-size: 40px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+/* Ajuste del párrafo */
+#inicio .bloque-inicio p {
+    font-size: 20px;
     padding: 10px;
     margin-bottom: 20px;
 }
 
-#inicio .bloque-inicio p {
-    font-size: 18px;
-    padding: 5px;
-    margin-bottom: 20px;
-}
-
-/* Botón */
+/* Ajuste del botón */
 #inicio .boton {
-    margin-top: 20px;
     padding: 12px 24px;
-    font-size: 16px;
+    font-size: 18px;
     background-color: #ff7300;
     border: none;
     border-radius: 5px;
@@ -909,7 +910,30 @@ footer .redes a
 }
 
 @media (max-width: 1024px) {
-    #inicio, #nosotros {
-        background-attachment: scroll !important; /* Soluciona la distorsión en móviles */
+    #inicio {
+        background-attachment: scroll !important; /* Evita problemas de distorsión */
+        justify-content: flex-end !important; /* 🔹 Asegura que el contenido esté abajo */
+        padding-bottom: 200px !important; /* 🔹 Aumentado para bajarlo más */
+    }
+
+    #inicio .bloque-inicio {
+        max-width: 90%;
+        padding: 15px;
+        margin-top: 80px !important; /* 🔹 Corregido y aumentado para más espacio */
+    }
+
+    #inicio .bloque-inicio h1 {
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+
+    #inicio .bloque-inicio p {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    #inicio .boton {
+        font-size: 16px;
+        padding: 10px 20px;
     }
 }
